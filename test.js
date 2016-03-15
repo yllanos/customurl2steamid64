@@ -1,4 +1,4 @@
-var getSteamID64 = require('./lib/index');
+var getSteamID64 = require('./lib/steamid64');
 
 var username = 'yllanos';
 var baseURL = "http://steamcommunity.com/id/";
