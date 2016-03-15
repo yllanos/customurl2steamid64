@@ -11,13 +11,15 @@ I couldn't find this utility for a project I'm working on, so I decided to write
 Not by Valve Software by any means. I'm just a fan. I'll try to support development of this library for as long as I can
 
 ### Cloning
-  $ git clone https://github.com/yllanos/customurl2steamid64.git
+    $ git clone https://github.com/yllanos/customurl2steamid64.git
 
 ### Installing
-  $ npm install
+    $ npm install
 
 ### Testing
+  ```
   $ node index.js
+  ```
 
 ### Example
 ...coming soon
