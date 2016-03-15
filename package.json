@@ -1,0 +1,28 @@
+{
+  "name": "customurl2steamid64",
+  "version": "1.0.0",
+  "description": "VERY simple NodeJS module to get a user's steamID64 based on customURL. No API key needed",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yllanos/customurl2steamid64.git"
+  },
+  "keywords": [
+    "steam",
+    "SteamID64",
+    "customURL"
+  ],
+  "author": "Yamil Llanos <yamil.llanos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yllanos/customurl2steamid64/issues"
+  },
+  "homepage": "https://github.com/yllanos/customurl2steamid64#readme",
+  "dependencies": {
+    "request-promise": "^2.0.1",
+    "xml2js": "^0.4.16"
+  }
+}
