@@ -17,7 +17,7 @@ Not by Valve Software by any means. I'm just a fan. I'll try to support developm
     $ npm install
 
 ### Testing
-    $ node index.js
+    $ node test.js
 
 (You should get this number on your console:)
     76561198008252756
