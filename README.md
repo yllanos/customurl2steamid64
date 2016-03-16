@@ -65,6 +65,7 @@ Using the test file above as template, we are going to integrate with the [steam
     });
 
 When the code above is executed, you should get something like:
+
     [ { steamid: '76561198008252756',
         communityvisibilitystate: 3,
         profilestate: 1,
