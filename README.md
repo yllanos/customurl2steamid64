@@ -29,17 +29,17 @@ You could also alter [this file](../blob/master/test.js) on variable 'username' 
 ### Integration example (steam-web)
 Using the test file above as template, we are going to integrate with the [steam-web](https://www.npmjs.com/package/steam-web) library:
 
-  var getSteamID64 = require('../lib/steamid64');
-  var steam = require('steam-web');
+    var getSteamID64 = require('../lib/steamid64');
+    var steam = require('steam-web');
 
-  var username = 'yllanos';
-  var baseURL = "http://steamcommunity.com/id/";
-  var URL = baseURL + username +  "/?xml=1";
+    var username = 'yllanos';
+    var baseURL = "http://steamcommunity.com/id/";
+    var URL = baseURL + username +  "/?xml=1";
 
-  var s = new steam({
-    apiKey: 'XXXXXXXXXXXXXXXX', // <<--PROVIDE API KEY HERE
-    format: 'json' //optional ['json', 'xml', 'vdf']
-  });
+    var s = new steam({
+      apiKey: 'XXXXXXXXXXXXXXXX', // <<--PROVIDE API KEY HERE
+      format: 'json' //optional ['json', 'xml', 'vdf']
+      });
 
     /**
     * Example implementing steam-web
