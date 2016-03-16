@@ -7,7 +7,7 @@ This module will allow you to get the SteamID64 for any Steam player, as long as
 ### But why?
 I couldn't find this utility for a project I'm working on, so I decided to write it myself and learn some NodeJS in the process.
 
-### Is this oficially supported?
+### Is this officially supported?
 Not by Valve Software by any means. I'm just a fan. I'll try to support development of this library for as long as I can
 
 ### Cloning
@@ -27,7 +27,7 @@ Using [npm](https://www.npmjs.com/):
 You could also alter [this file](../blob/master/test.js) on variable 'username' to whatever Steam user you wish to test
 
 ### Integration example (steam-web)
-Using the test file above as template, we are going to integrate with the [steam-web](https://www.npmjs.com/package/steam-web) library:
+Using the test file above as template, we are going to integrate with the [steam-web](https://www.npmjs.com/package/steam-web) library. Please update your code with your own API key
 
     var getSteamID64 = require('../lib/steamid64');
     var steam = require('steam-web');
@@ -63,3 +63,22 @@ Using the test file above as template, we are going to integrate with the [steam
         console.log("%j", reason.response.statusCode);
         return reason.error.message;
     });
+
+When the code above is executed, you should get something like:
+    [ { steamid: '76561198008252756',
+        communityvisibilitystate: 3,
+        profilestate: 1,
+        personaname: 'Soyvideojuegos',
+        lastlogoff: 1458067862,
+        profileurl: 'http://steamcommunity.com/id/yllanos/',
+        avatar: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/36/3695d435209ad73d6ed0f720ac68f5c809a8e514.jpg',
+        avatarmedium: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/36/3695d435209ad73d6ed0f720ac68f5c809a8e514_medium.jpg',
+        avatarfull: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/36/3695d435209ad73d6ed0f720ac68f5c809a8e514_full.jpg',
+        personastate: 0,
+        realname: 'Yamil Llanos',
+        primaryclanid: '103582791434470617',
+        timecreated: 1237920338,
+        personastateflags: 0,
+        loccountrycode: 'CO',
+        locstatecode: '04',
+        loccityid: 10644 } ]
