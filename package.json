@@ -1,6 +1,6 @@
 {
   "name": "customurl2steamid64",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "VERY simple NodeJS module to get a user's steamID64 based on customURL. No API key needed",
   "main": "test.js",
   "scripts": {
